@@ -53,6 +53,33 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+    <style>
+        .containers {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.logos-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Adds space between logos */
+}
+
+.logo-container img {
+    width: 100px; /* Set consistent width */
+    height: 100px; /* Set consistent height */
+    object-fit: contain; /* Maintains aspect ratio */
+    border-radius: 5px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+    transition: transform 0.3s ease; /* Optional: adds hover effect */
+}
+
+.logo-container img:hover {
+    transform: scale(1.1); /* Optional: enlarge image on hover */
+}
+
+    </style>
 
 	</head>
 	<body>
@@ -123,6 +150,47 @@ I’m always eager to take on new challenges, collaborate with innovative teams,
 			</div>
 		</div>
 	</div>
+
+    <div class="containers">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-8 col-md-offset-2 fh5co-heading">
+                <h2>My Resume</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center logos-row">
+            <div class="col logo-container">
+                <img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Logo.png" alt="Python">
+            </div>
+            <div class="col logo-container">
+                <img src="https://static-00.iconduck.com/assets.00/django-original-icon-2048x874-iws4p6y8.png" alt="Django">
+            </div>
+            <div class="col logo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/FastAPI_logo.svg/2560px-FastAPI_logo.svg.png" alt="FastAPI">
+            </div>
+            <div class="col logo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/2560px-Git-logo.svg.png" alt="Git">
+            </div>
+            <div class="col logo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sql_data_base_with_logo.svg/2560px-Sql_data_base_with_logo.svg.png" alt="SQL">
+            </div>
+            <div class="col logo-container">
+                <img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.png" alt="PostgreSQL">
+            </div>
+            <div class="col logo-container">
+                <img src="https://velog.velcdn.com/images/sjb2010/post/a1cdbbfb-91ad-4609-ba43-ca5c2b7d3997/image.png" alt="Docker">
+            </div>
+            <div class="col logo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="HTML5">
+            </div>
+            <div class="col logo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS3">
+            </div>
+            <div class="col logo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/1200px-Javascript-shield.svg.png" alt="JavaScript">
+            </div>
+        </div>
+    </div>
+    
 
 	<div id="fh5co-resume" class="fh5co-bg-color">
 		<div class="container">
